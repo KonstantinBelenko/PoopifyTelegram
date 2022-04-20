@@ -1,5 +1,6 @@
 # 💩 Poopify Telegram Bot
-Poopify telegram bot is just a little silly side project of mine that I dedicated for me and my girlfriend.
+Poopify telegram bot is just a little silly side project of mine that I dedicated for me and my girlfriend. <br/>
+The premise is to communicate with your friends by sending the "poop" message to your friends thorugh the bot, and receiving their emoji reactions afterwards.
 
 # ⚡️ How to install / run
 **0. Download this library and cd into the library folder**
@@ -35,3 +36,4 @@ $ pip3 install -r requirements.txt
 ```python
 $ python3 main.py
 ```
+**4. 🦄 Have fun 🌈**
