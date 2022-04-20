@@ -26,5 +26,5 @@ config.db_file = "db.json"
 config.reactions = [
     "❤️", 
     "🦄", 
-    "💪",
+    "💪"
 ]
