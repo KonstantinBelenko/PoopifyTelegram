@@ -27,7 +27,7 @@ $ source ./venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-**2. Fill out the config.py**
+**2. Fill out the config_file.py**
 1. config.bot_token needs to hold the token of the telegram bot you're going to use
 2. config.db_file (default: "db.json") is optional. You can set the database file to be anything you want **(File needs to be created beforehand)**
 3. config.reactions (optional). You can create which reactions your friends are going to be able to respond with.
