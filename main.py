@@ -55,6 +55,10 @@ def accpet_or_deny_new_user(msg):
 def poop(msg):
     """ This is the main function that send the poop message
     """
+
+    if not manager.check_if_exists(str(msg.from_user.id)):
+        bot.reply_to(msg, f"💩 You're not registed! Press /start")
+        return
     
     friends_list = manager.get_friends(str(msg.from_user.id))
 
